@@ -34,7 +34,7 @@
             
         }
         .fa-solid{
-            height: 20px;
+            height: 15px;
             width: 40px;
             color: white;
         }
@@ -54,7 +54,7 @@
 .nomber{
     color: orange;
     &:hover{
-        color: white;
+        color: black;
     }
 }
 .gif{
@@ -63,9 +63,9 @@
 .hr{
     margin-top: -5.5px;
     height: 5px;
-background-color: black;
+background-color:#271e1e;
     &:hover{
-        color: gold;
+        background-color: black;
     }
 }
 
@@ -77,10 +77,24 @@ background-color: black;
 
 
 
-@media ( max-width:550px){
-    .poyck{
+@media ( max-width:800px){
+    .footer{
         &__wrapper{
             flex-direction: column;
+            gap: 30px;
+        }
+        &__btn{
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+    .fa-brands{
+        font-size: 30px;
+        margin: 10px;
+        color:orange;
+        transition: 1s;
+        &:hover{
+           color: black;
         }
     }
 }
