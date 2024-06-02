@@ -1,0 +1,102 @@
+.boctoka{
+   
+    &__wrapper{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__card{
+        width: 50%;
+    }
+    &__title{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    &__text{
+        color: #6B6B6C;
+        font-size: 16px;
+    }
+    &__item{
+        font-size: 20px;
+        font-weight: bold;
+    }
+   
+}
+
+.boxx{
+    max-width:600px;
+    margin-top: 100px;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:  #0B7572;;
+}
+::-webkit-scrollbar-thumb{
+    background-color:   #4abcb9;;
+    border-radius: 5px;
+    &:hover{
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width:1050px){
+    .boctoka{
+        &__wrapper{
+            margin-top: 40px;
+         flex-direction: column;
+         gap: 20px;
+        }
+        &__card{
+            text-align: center;
+            width: 100%;
+        }
+       
+        }
+        .boxx{
+            width: 100%;
+            margin-top: 10px;
+            margin: auto;
+        }
+    }
+
+
+
+
+    
+
+@media ( max-width:400px){
+    .boctoka{
+        &__wrapper{
+            margin-top: 10px;
+         flex-direction: column;
+        }
+        &__card{
+            text-align: left;
+            width: 100%;
+        }
+       
+        }
+        .boxx{
+            width: 100%;
+            margin-top: 10px;
+            margin: auto;
+        }
+    }
