@@ -48,7 +48,7 @@
 @media ( max-width:520px){
     .table{
         &__wrapper{
-            padding: 20px;
+            padding: 10px;
         }
         .card__imgs{
             display: none;
@@ -62,6 +62,9 @@
             color: white;
             font-size: 32px;
             font-weight: 600;
+            &:hover{
+                color: black;
+            }
         }
     }
 }

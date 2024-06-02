@@ -1,0 +1,76 @@
+.etap{
+    margin-top: 50px;
+   
+    &__title{
+        font-size: 48px;
+        font-weight: 600;
+    }
+   
+    .etap__body{
+        width: 600px;
+    }
+    .etap__imgs{
+        width: 400px;
+    }
+   
+}
+.etap__card{
+    border: 2px solid #ddd;
+    padding: 20px 80px;
+    transition: .5s;
+    &:hover{
+        border: 2px solid blue;
+    }
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+}
+.card__title{
+    font-weight: 600;
+}
+.card__text{
+    color: 
+    #6B6B6C;
+}
+
+
+
+
+
+
+
+@media ( max-width:900px){
+    .etap{
+       &__imgs{
+        display: none;
+       }
+    }
+    .etap__card{
+        padding: 20px 40px;
+        }
+}
+
+
+
+
+
+
+
+@media ( max-width:440px){
+    .etap{
+      
+    }
+    .etap__card{
+        padding: 20px 10px;
+        width: 100%;
+        }
+        .card__title{
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .card__text{
+            color: 
+            #6B6B6C;
+            font-size: 12px;
+        }
+}
