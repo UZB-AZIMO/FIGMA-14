@@ -16,10 +16,11 @@
     }
     &__card{
         width: 395px;
-        border: 2px solid #ddd;
+        border: 3px solid #ddd;
         transition: .5s;
         &:hover{
-            border: 2px solid blue;
+            border: 3px solid 
+            #0B7572;
         }
         border-radius: 15px;
 

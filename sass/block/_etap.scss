@@ -11,15 +11,17 @@
     }
     .etap__imgs{
         width: 400px;
+       
     }
    
 }
 .etap__card{
-    border: 2px solid #ddd;
+    border: 3px solid #ddd5;
     padding: 20px 80px;
     transition: .5s;
     &:hover{
-        border: 2px solid blue;
+        border: 3px solid 
+        #0B7572;
     }
     border-radius: 10px;
     display: flex;
@@ -39,7 +41,7 @@
 
 
 
-@media ( max-width:900px){
+@media ( max-width:1055px){
     .etap{
        &__imgs{
         display: none;
@@ -57,10 +59,12 @@
 
 
 @media ( max-width:440px){
-    .etap{
-      
+    .etap__title{
+        font-size: 32px;
+        font-weight: 600;
     }
     .etap__card{
+        margin-top: 20px;
         padding: 20px 10px;
         width: 100%;
         }

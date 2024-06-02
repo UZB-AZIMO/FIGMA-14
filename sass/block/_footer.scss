@@ -1,0 +1,86 @@
+.footer{
+    padding: 40px 20px;
+    background-color: #0B7572;
+    margin-top: 50px;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item{
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        transition: 1s;
+        cursor: pointer;
+        &:hover{
+            color: black;
+        }
+    }
+  
+    &__text{
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+    }
+    &__btn{
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        transition: 1s;
+        &:hover{
+            background-color: black;
+            
+        }
+        .fa-solid{
+            height: 20px;
+            width: 40px;
+            color: white;
+        }
+        
+    }
+   
+}
+.fa-brands{
+    font-size: 50px;
+    margin: 20px;
+    color:orange;
+    transition: 1s;
+    &:hover{
+       color: black;
+    }
+}
+.nomber{
+    color: orange;
+    &:hover{
+        color: white;
+    }
+}
+.gif{
+   width: 60px;
+}
+.hr{
+    margin-top: -5.5px;
+    height: 5px;
+background-color: black;
+    &:hover{
+        color: gold;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width:550px){
+    .poyck{
+        &__wrapper{
+            flex-direction: column;
+        }
+    }
+}
